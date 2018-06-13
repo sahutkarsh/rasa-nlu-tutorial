@@ -1,0 +1,26 @@
+slots:
+ location:
+  type: text
+
+intents:
+ - greet
+ - goodbye
+ - inform
+ 
+entities:
+ - location
+ 
+templates:
+ utter_greet:
+  - 'Hello! Please send in your queries here"
+ utter_goodbye:
+  - 'Bye Bye'
+  - 'Talk to you later'
+ utter_ask_location:
+  - 'In what location?'
+  
+actions:
+ - utter_greet
+ - utter_goodbye
+ - utter_ask_location
+ - ActionWeather
