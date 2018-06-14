@@ -1,19 +1,19 @@
 {
   "action_fingerprints": {
     "action_listen": {
-      "slots": []
+      "slots": [
+        "location"
+      ]
     },
     "utter_goodbye": {
-      "slots": []
+      "slots": [
+        "location"
+      ]
     },
-    "utter_ask_location": {
-      "slots": []
-    },
-    "action_weather": {
-      "slots": []
-    },
-    "utter_greet": {
-      "slots": []
+    "null": {
+      "slots": [
+        "location"
+      ]
     }
   },
   "rasa_core": "0.9.4",
